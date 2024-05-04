@@ -2,5 +2,46 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: mont;
+    font-family: 'Circular';
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Circular';
+    src: url(/fonts/circular-std-medium-500.ttf);
+}
+/*header*/
+.hdr{
+    display: flex;
+    position: relative;
+}
+.btn-idx{
+position: absolute;
+left: 10%;
+top: 30px;
+}
+.btn-idx button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.btns-hdr{
+    position: absolute;
+    right: 10%;
+    top: 30px;
+
+}
+.btns-hdr button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+}
+/*we-build*/
+.we-build{
+    text-align: justify;
+    margin-top: 20%;
+    margin-left: 30%;
+}
+.we-build p{
+    width: 50%;
 }
