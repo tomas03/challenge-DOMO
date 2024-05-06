@@ -138,6 +138,7 @@ top: 30px;
 .container{
     margin-left: 20%;
 }
+/*second part*/
 .second-part{
     display: flex;
     background-color: #3871ff;
@@ -155,4 +156,37 @@ top: 30px;
 }
 .cutting-edge p{
     color: white;
+}
+.white-size{
+    color: white;
+    font-size: 90px;
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 70%;
+    display: flex;
+}
+.logo-size{
+   margin-right: 50px; 
+}
+.col1{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    flex: 0 0 18%;
+    max-width: 18%;
+    margin-right: 50px;
+    height: 300px;
+}
+.col2{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    flex: 0 0 18%;
+    max-width: 18%;
+    margin-left: 20px;
+    height: 300px;
+}
+/*third part*/
+.third-part{
+    height: 500px;
 }
