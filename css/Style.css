@@ -5,9 +5,8 @@
     font-family: 'Circular';
     box-sizing: border-box;
 }
-body{
+.fp{
     background-color: #273244;
-
 }
 /*set the new font to the website*/
 @font-face {
@@ -26,7 +25,7 @@ body{
     background-size: 50% 100% ;
     background-repeat: no-repeat;
     background-position: 100%;
-    height: 800px;
+    height: 900px;
 }
 /*header*/
 .hdr{
@@ -88,11 +87,72 @@ top: 30px;
 /*our services section*/
 .our-services{
     text-align: center;
-    margin-top: 20%;
 }
 .our-services p{
     margin-top:2%;
     position: absolute;
     left: 30%;
+    top: 78%;
     width: 38%;
+}
+.our-services h3{
+    position: absolute;
+    left: 30%;
+    top: 75%;
+    width: 38%;
+}
+/*containers*/
+.col{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    flex: 0 0 18%;
+    max-width: 18%;
+    background-color: #ffff;
+    margin-left: 20px;
+    height: 300px;
+    top: -15%;
+    text-align: center;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.col h5{
+    margin-top: 80px;
+}
+.col p{
+    margin-top: 20px;
+    font-size: 13px;
+    color: #a7a7a7;
+}
+.col button{
+    margin-top: 15px;
+    background-color: transparent;
+    border: solid 2px #d7d7d7;
+    padding: 5px;
+    cursor: pointer;
+    color: #8a909a;
+}
+.container{
+    margin-left: 20%;
+}
+.second-part{
+    display: flex;
+    background-color: #3871ff;
+    height: 800px;
+}
+.cutting-edge{
+    position:absolute;
+    margin-top: 25%;
+    width: 33%;
+    margin-left: 10%;
+}
+.cutting-edge h2{
+    margin-bottom: 6%;
+    color: white;
+}
+.cutting-edge p{
+    color: white;
 }
